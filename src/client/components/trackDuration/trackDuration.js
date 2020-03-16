@@ -134,7 +134,7 @@ export class TrackDuration extends Component {
             <div className="Timer">
               {formatedCurrentTime}
               {' '}
-/
+              /
               {formatedDurationTime}
             </div>
             <Slider
