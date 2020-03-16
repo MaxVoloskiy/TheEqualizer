@@ -56,7 +56,7 @@ export class VolumeComponent extends Component {
           <span>
             {volumeIcon}
             {' '}
-Volume
+            Volume
           </span>
           <Slider
             className="SwitcherContainer--slider"

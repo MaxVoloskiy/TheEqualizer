@@ -19,7 +19,7 @@ class MainPageHeader extends Component {
       <div className="AppLogoContainer">
         <img src={logo} alt="logo" />
         <span className="Node">nodes</span>
-      Equalizer
+        Equalizer
       </div>
       <div className="UserNameAndLogout">
         <div className="UserName">
