@@ -16,8 +16,7 @@
     "lint:client-fix": "./node_modules/.bin/eslint ./src/client --fix",
     "lint:server": "./node_modules/.bin/eslint ./src/server",
     "lint:server-fix": "./node_modules/.bin/eslint ./src/server --fix",
-    "heroku-prebuild": "npm install --dev",
-    "heroku-postbuild": "npm run build:client",
+    "heroku-prebuild": "npm install --dev & npm run build:client",
     "heroku-app": "npm run dev:server"
   },
   "author": "Lv 411",
