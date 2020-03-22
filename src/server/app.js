@@ -29,5 +29,6 @@ app.get('/main', (req, res) => {
 routes(app);
 
 app.listen(PORT, () => {
+  console.log(process.env)
   dbConnect();
 });

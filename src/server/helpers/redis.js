@@ -13,12 +13,12 @@ dotenv.config();
 const DAY = 3600 * 24;
 
 const redisClient = redis.createClient({
-  url: process.env.REDIS_URL,
+  url: process.env.REDISCLOUD_URL,
   expire: DAY,
 });
 
 redisClient.on('error', err => console.log(`Redis error -> ${err}`));
-redisClient.on('connect', () => process.env.DEV_MODE && console.log('redis connected ', process.env.REDIS_URL));
+redisClient.on('connect', () => process.env.DEV_MODE && console.log('redis connected ', process.env.REDISCLOUD_URL));
 
 function injectMethod(method, methodArgs) {
   return new Promise((resolve, reject) => {
