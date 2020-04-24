@@ -1,6 +1,9 @@
 {
   "name": "equalizer",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.9.0"
+  },
   "description": "The Best Equalizer ever You seen",
   "main": "./src/server/app.js",
   "scripts": {
