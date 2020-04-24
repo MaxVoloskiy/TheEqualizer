@@ -1,27 +1,26 @@
 :root {
   /* Fonts */
-  --font-title: 'Orbitron', sans-serif;
-  --font-ordinary: 'Khand', sans-serif;
-  --font-authentication: 'Segoe UI', sans-serif;
+  --font-title: 'Dosis', sans-serif;
+  --font-ordinary: 'Dosis', sans-serif;
+  --font-authentication: 'Dosis', sans-serif;
 
   /* Icons */
   --fontSize-ModesIcons: 25px;
   --fontSize-ButtonsIcons: 18px;
   /* Text */
-  --mainText-ordinary-white: #FFFFFF;
+  --mainText-ordinary-white: #000000;
   --fontSize-title: 1rem;
   --fontSize-text: 0.8rem;
 
   /* Color Elements */
-  --authFont-white: #ffffff;
+  --authFont-white: #000000;
   --authInputBackground-blue-superlight: #e8f0fe;
   --authInputFont-black: #000000;
-  --bodyBackground-dark-light: #142A48;
-  --headerBackground-dark-super: #131E2F;
-  --mainText-accent-blue: #05D8C5;
-  --accentElement-terquoise: #69dde6;
-  --accentElement-terquoise: #69dde6;
-  --rangeSlider-ocean: #0B85B2;
+  --bodyBackground-dark-light: rgba(var(--b3f,250,250,250),1);
+  --headerBackground-dark-super: rgba(var(--b3f,250,250,250),1);
+  --mainText-accent-blue: #3D72A4;
+  --accentElement-terquoise: #3D72A4;
+  --rangeSlider-ocean: rgba(var(--b6a,219,219,219),1);
   --togglerSliderBackOn-whitesmoke: #eeeeee;
   --togglerSliderOff-white: #ffffff;
 }

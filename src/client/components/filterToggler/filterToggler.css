@@ -1,6 +1,7 @@
 .modesElement {
   text-align: center;
   color: var(--mainText-ordinary-white);
+  font-family: var(--font-ordinary);
 }
 
 .labels {

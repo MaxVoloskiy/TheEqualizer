@@ -3,14 +3,13 @@
   font-size: 20px;
   color: var(--mainText-ordinary-white);
   border: 1px dashed var(--mainText-accent-blue);
-  background-color: var(--rangeSlider-ocean);
-  margin-bottom: 10px;
+  margin: 10px;
   text-align: center;
 }
 
 .container:hover {
   border: 1px dashed var(--mainText-accent-blue);
-  background-color: #08a8e2;
+  background-color: var(--mainText-accent-blue);
   cursor: pointer;
   opacity: 0.6;
 }

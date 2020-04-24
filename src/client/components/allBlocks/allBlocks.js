@@ -6,7 +6,6 @@ import BlockOfSliders from '../blockOfSliders';
 import { createEffect } from '../../helpers/constants';
 import { checkTickIcon } from '../../assets/icons/icons';
 import './alllBlocks.css';
-import ToggleZone from '../toggleZone/toggleZone';
 
 class AllBlocks extends Component {
   toggleSourceFilters = (filterName) => {
@@ -30,27 +29,25 @@ class AllBlocks extends Component {
     return (
       <div className="SlidersComponent__main--container">
         <div className="AllSliders">
-          <ToggleZone>
-            <div className="ListOfEffects">
-
-              {
-                blocksData.map(({ name, isVisible }) => (
-                  <button
-                    className="Effect"
-                    key={name}
-                    type="button"
-                    id={name}
-                    name={name}
-                    onClick={() => this.toggleSourceFilters(name)}
-                  >
-                    {name}
-                    {' '}
-                    {isVisible ? checkTickIcon : ''}
-                  </button>
-                ))
-              }
-            </div>
-          </ToggleZone>
+          <div className="ListOfEffects">
+            <h3 className="ListOfEffects--header">Effects: </h3>
+            {
+              blocksData.map(({ name, isVisible }) => (
+                <button
+                  className="Effect"
+                  key={name}
+                  type="button"
+                  id={name}
+                  name={name}
+                  onClick={() => this.toggleSourceFilters(name)}
+                >
+                  {name}
+                  {' '}
+                  {isVisible ? checkTickIcon : ''}
+                </button>
+              ))
+            }
+          </div>
           <div className="Sliders">
             {blocksData.map(({
               name, effects, isVisible,

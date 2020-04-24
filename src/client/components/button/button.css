@@ -2,8 +2,8 @@
   font-family: var(--font-ordinary);
   font-size: var(--fontSize-text);
   color: var(--mainText-ordinary-white);
-  border: 1px solid var(--mainText-accent-blue);
-  background-color: var(--rangeSlider-ocean);
+  border: 1px solid black;
+  background-color: var(--togglerSliderOff-white);
 
   display: flex;
   width: 150px;
@@ -18,9 +18,9 @@
 }
 
 .ButtonStyleTemplate:hover {
-  color: var(--rangeSlider-ocean);
+  color: var(--mainText-ordinary-white);
   border: 1px solid var(--mainText-accent-blue);
-  background-color: var(--mainText-ordinary-white);
+  background-color: var(--rangeSlider-ocean);
 
   cursor: pointer;
   transition: 0.3s ease all;

@@ -193,7 +193,7 @@ class Equalizer extends Component {
     ctx.arcTo(x + width, y - heightReq, x + width - radius, y - heightReq, radius);
     ctx.lineTo(x + radius, y - heightReq);
     ctx.arcTo(x, y - heightReq, x, y - heightReq + radius, radius);
-    ctx.fillStyle = flagColor ? '#05D8C5' : '#FFFFFF';
+    ctx.fillStyle = flagColor ? '#3D72A4' : '#FFFFFF';
     ctx.fill();
   }
 
@@ -232,7 +232,7 @@ class Equalizer extends Component {
         className="ButtonStyleTemplate StartStreamButton"
         onClick={startMuteStream}
         icon={startStreamIcon}
-        value="Start stream"
+        value="Start Live"
       />
     );
     const PlayButton = (

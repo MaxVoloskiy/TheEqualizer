@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { userIcon } from '../../assets/icons/icons';
-import logo from '../../assets/images/logo.svg';
+import logo from '../../assets/images/logo.jfif';
 import Logout from '../logout';
 import './mainPageHeader.css';
 
@@ -18,7 +18,7 @@ class MainPageHeader extends Component {
     <section className="MainPageHeaderContainer">
       <div className="AppLogoContainer">
         <img src={logo} alt="logo" />
-        <span className="Node">nodes</span>
+        <span className="Node">The</span>
         Equalizer
       </div>
       <div className="UserNameAndLogout">

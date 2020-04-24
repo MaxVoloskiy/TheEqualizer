@@ -28,12 +28,12 @@ export const FilterToggler = (props) => {
 
   return (
     <div className="modesElement">
-      <span className="labels">Sound</span>
+      <span className="labels">Track</span>
       <label htmlFor="toggler" className="switch">
         <input id="toggler" type="checkbox" onClick={onToggler} />
         <span className="slider" />
       </label>
-      <span className="labels">Voice</span>
+      <span className="labels">Live</span>
     </div>
   );
 };

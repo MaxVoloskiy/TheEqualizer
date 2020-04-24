@@ -5,7 +5,10 @@
   align-items: center;
   align-content: center;
   justify-content: space-between;
-  border-bottom: 1px solid var(--rangeSlider-ocean);
+  border: 1px solid var(--rangeSlider-ocean);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #FFFFFF;
 }
 
 .AppLogoContainer {
@@ -25,7 +28,7 @@
 .AppLogoContainer img {
   color: var(--mainText-ordinary-white);
   width: 70px;
-  height: 60px; 
+  height: 60px;
 }
 
 .UserName span {
