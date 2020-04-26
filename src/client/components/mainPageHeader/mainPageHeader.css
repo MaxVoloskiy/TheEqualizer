@@ -40,7 +40,7 @@
 }
 
 .UserName .icon {
-  color: var(--mainText-accent-blue);
+  color: var(--mainText-ordinary-white);
 }
 
 .UserNameAndLogout {

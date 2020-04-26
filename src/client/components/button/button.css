@@ -21,7 +21,6 @@
   color: var(--mainText-ordinary-white);
   border: 1px solid var(--mainText-accent-blue);
   background-color: var(--rangeSlider-ocean);
-
   cursor: pointer;
   transition: 0.3s ease all;
 }

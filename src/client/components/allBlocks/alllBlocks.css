@@ -1,6 +1,6 @@
 .SlidersComponent__main--container {
   display: flex;
-  flex-direction: column;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
   background-color: #FFFFFF;
@@ -19,6 +19,7 @@
   margin: 20px 0;
   width: 20%;
   border: 1px dashed var(--mainText-accent-blue);
+  border-radius: 5px;
 }
 
 .ListOfEffects--header{
@@ -58,9 +59,8 @@
 
 .Sliders {
   display: flex;
-  width: 100%;
-  justify-content: space-around;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .SlidersComponent__main--container .Buttons {

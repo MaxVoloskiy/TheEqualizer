@@ -44,21 +44,31 @@ class OneSlider extends Component {
     const {
       sliderValue, maxValue, minValue, step,
     } = this.state;
+
     const { effectName } = this.props;
     return (
       <div>
-        <span className="Slider--value">{maxValue}</span>
+        <p className="Slider--label">{effectName}</p>
+        {/* <input */}
+        {/*  type="range" */}
+        {/*  id={effectName} */}
+        {/*  name={effectName} */}
+        {/*  min={minValue} */}
+        {/*  max={maxValue} */}
+        {/*  value={sliderValue} */}
+        {/*  step={step} */}
+        {/*  onChange={this.setEffectsValue} */}
+        {/* /> */}
         <Slider
           className="Sliders--slider"
           min={minValue}
           max={maxValue}
           value={sliderValue}
           step={step}
-          orientation="vertical"
+          orientation="horizontal"
           onChange={this.setEffectsValue}
         />
         <span className="Slider--value">{sliderValue}</span>
-        <p className="Slider--label">{effectName}</p>
       </div>
     );
   }
