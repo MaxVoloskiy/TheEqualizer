@@ -20,6 +20,7 @@
     "lint:server": "./node_modules/.bin/eslint ./src/server",
     "lint:server-fix": "./node_modules/.bin/eslint ./src/server --fix",
     "heroku-prebuild": "npm install --dev & npm run build:client",
+    "heroku-postbuild": "webpack --config webpack.prod.js",
     "heroku-app": "npm run dev:server"
   },
   "author": "Max Voloskiy",
