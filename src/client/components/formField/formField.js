@@ -6,9 +6,9 @@ const FormField = ({
   field: { name, label, type }, onInputChange, value, error,
 }) => (
   <div className="formField">
-    <label htmlFor="field" className="label">{label}</label>
+    <label htmlFor="field" className="label">{`${label}:`}</label>
     <div className="field">
-      <input onChange={onInputChange} name={name} type={type} value={value} />
+      <input onChange={onInputChange} name={name} type={type} value={value} placeholder={`Enter your ${label.toLowerCase()} here`} />
     </div>
     <div className="error">{error}</div>
   </div>
