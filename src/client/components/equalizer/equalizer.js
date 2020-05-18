@@ -233,7 +233,6 @@ class Equalizer extends Component {
         onClick={startMuteStream}
         icon={startStreamIcon}
         value="Start Live"
-        ч
       />
     );
     const PlayButton = (

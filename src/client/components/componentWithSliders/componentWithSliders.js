@@ -20,14 +20,14 @@ class ComponentWithSliders extends Component {
         isModalBlockShow: !isModalBlockShow,
       });
     }
-  }
+  };
 
   render() {
     const { isModalBlockShow } = this.state;
     return (
       <section className="SlidersComponent">
         {isModalBlockShow && <SavePressetModalBlock showHideModalBlock={this.showHideModalBlock} />}
-        <header className="SlidersComponent__header">
+        <aside className="SlidersComponent__header">
           <Button
             className="ButtonStyleTemplate SavePresetButton"
             onClick={this.showHideModalBlock}
@@ -36,7 +36,7 @@ class ComponentWithSliders extends Component {
           />
           <FilterToggler />
           <PresetsDropdownSelector />
-        </header>
+        </aside>
         <main className="SlidersComponent__main">
           <AllBlocks />
         </main>

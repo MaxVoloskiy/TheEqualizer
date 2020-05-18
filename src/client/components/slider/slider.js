@@ -49,16 +49,6 @@ class OneSlider extends Component {
     return (
       <div>
         <p className="Slider--label">{effectName}</p>
-        {/* <input */}
-        {/*  type="range" */}
-        {/*  id={effectName} */}
-        {/*  name={effectName} */}
-        {/*  min={minValue} */}
-        {/*  max={maxValue} */}
-        {/*  value={sliderValue} */}
-        {/*  step={step} */}
-        {/*  onChange={this.setEffectsValue} */}
-        {/* /> */}
         <Slider
           className="Sliders--slider"
           min={minValue}
